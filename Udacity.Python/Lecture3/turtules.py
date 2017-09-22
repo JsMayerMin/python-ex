@@ -21,6 +21,13 @@ def draw_square() :
     angie.shape("arrow")
     angie.circle(100)
 
+    angie2 = turtle.Turtle()
+    angie2.shape("turtle")
+    angie2.color("red")
+    for x in range(0,3):
+        angie2.forward(100)
+        angie2.right(120)
+
 
 draw_square()
 
