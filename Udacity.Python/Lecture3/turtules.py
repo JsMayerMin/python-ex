@@ -24,7 +24,7 @@ def draw_square() :
     angie2 = turtle.Turtle()
     angie2.shape("turtle")
     angie2.color("red")
-    for x in range(0,3):
+    for x in range(3):
         angie2.forward(100)
         angie2.right(120)
 
